@@ -10,6 +10,8 @@
    background-color: #e3dfdf;
    padding: 10px 0 ;
    margin-bottom: 30px;
+   /* position: fixed; */
+   /* overflow: hidden; */
 }
 .nav-img{
     width: 10%;
@@ -117,15 +119,66 @@ margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-area: 2rem;
+    margin: 40px 0 0 0px;
+    padding: 70px;
 }
 .sample-design-box{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 200px;
     background-color: #ffffff;
-    box-shadow: 5px 5px 20px 0 
+    /* box-shadow: 5px 5px 20px 0 ; */
+    box-shadow:0 ;
+    padding: 40px;
+    margin-bottom: 40px;
+
 }
 #box-section{
     background-color: #e3dfdf ;
-    /* background-color: #d9d9d9; */
+}
+.design-details{
+    margin:40% 0 0 25%;
+
+}
+.design-details h1{
+    margin-bottom: 10%;
+    font-size: 2rem;
+font-weight: 800;
+}
+.design-details p{
+    margin-bottom: 10%;
+    font-size: 1.rem;
+    line-height: 1.5;
+    font-size: 17px;
+
+}
+.sample-design1{
+    margin:70px 0 0 85px;
+
+}
+.sample-design2{
+    margin-right: 150px;
+}
+.dot{
+        height: 80px;
+        width: 80px;
+        background-color:black;
+        border-radius: 50%;
+        
+}
+.box-icon{
+   margin-top: 35px;
+   margin-left: 22px;
+}
+.sample-design-box h1{
+margin:20px 0 20px 0;
+font-size: 20px;
+font-weight: lighter;
+font-family: 'Merriweather', serif;
 }
 
+.sample-design-box p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #2c2b2b;
+    line-height: 1.5;
+}
