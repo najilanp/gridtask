@@ -4,7 +4,7 @@
     /* position: relative; */
     /* font-family: Roboto,sans-serif; */
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
     font-family: Roboto,sans-serif;}
 .navbar{
    display: flex;
@@ -144,12 +144,12 @@ margin-bottom: 10px;
 }
 .design-details h1{
     margin-bottom: 10%;
-    font-size: 2rem;
-font-weight: 800;
+    font-size: 1.5rem;
+font-weight: 700;
 }
 .design-details p{
     margin-bottom: 10%;
-    font-size: 1.rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     font-size: 17px;
 
@@ -180,7 +180,7 @@ font-family: 'Merriweather', serif;
 }
 
 .sample-design-box p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     color: #2c2b2b;
     line-height: 1.5;
@@ -318,3 +318,72 @@ font-weight: 400
     font-size: 3rem;
 font-weight: 600;
 }
+
+#form{
+    background-color: #e3dfdf ; 
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 30px;
+   margin-bottom: 20px;
+}
+.wrapper .box{
+width: 100%;
+position: relative;
+padding: 20px;
+}
+.wrapper .box input{
+    width: 85%;
+    font-size: 15px;
+    padding: 15px;
+    outline: none;
+    margin-top: 8px;
+
+}
+.wrapper .box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #999999;
+    font-size: 18px;
+    padding-left: 20px;
+    
+    
+}
+.wrapper .box textarea{
+    width: 85%;
+    font-size: 15px;
+    padding: 15px;
+    outline: none;
+    margin-top: 8px;
+
+}
+.submit{
+    background-color: #e3dfdf ; 
+    padding: 10px 30px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 45%;
+}
+.container2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container2 p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+form{
+    margin-top: 100px;
+}
+
+
