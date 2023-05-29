@@ -331,7 +331,7 @@ font-weight: 600;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 30px;
-   margin-bottom: 20px;
+   margin-bottom: 15px;
 }
 .wrapper .box{
 width: 100%;
@@ -371,6 +371,7 @@ padding: 20px;
     text-align: center;
     font-size: 15px;
     margin-left: 45%;
+    margin-bottom: 8%;
 }
 .container2 h1{
     text-align: center;
@@ -384,6 +385,37 @@ padding: 20px;
 }
 form{
     margin-top: 100px;
+}
+#footer{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    padding: 3%;
+   
+
+}
+
+.footer-content a{
+    color: #adcce9;
+    display: inline-block;
+    font-weight: lighter;
+
+
+}
+.footer-content h1{
+    font-size :16px;
+    margin-bottom: 3%;
+    font-weight: lighter;
+
+
+}
+.footer-content p{
+    display: inline-block;
+    font-weight: lighter;
+
+
 }
 
 
