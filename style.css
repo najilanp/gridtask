@@ -1,8 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* position: relative; */
-    /* font-family: Roboto,sans-serif; */
+    
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Roboto,sans-serif;}
@@ -13,8 +12,7 @@ h1, h2, h3, h4, h5, h6{
    background-color: #e3dfdf;
    padding: 10px 0 ;
    margin-bottom: 30px;
-   /* position: fixed; */
-   /* overflow: hidden; */
+   
 }
 .nav-img{
     width: 10%;
@@ -46,7 +44,6 @@ padding-right: 10px;
    height: 70%;
 }
 .intro-details{
-    /* margin-left: 100px; */
     text-align: center;
     margin: 80px 10% 13% 0;
 }
@@ -166,12 +163,12 @@ font-weight: 700;
         width: 80px;
         background-color:black;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
 }
-.box-icon{
-   margin-top: 35px;
-   margin-left: 22px;
-}
+
 .sample-design-box h1{
 margin:20px 0 20px 0;
 font-size: 20px;
@@ -189,7 +186,6 @@ font-family: 'Merriweather', serif;
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
     row-gap: 2rem;
-    /* column-gap: 2rem; */
 }
 .col-img{
   width: 350px;
